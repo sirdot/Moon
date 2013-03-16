@@ -8,6 +8,7 @@ public class Moon
 	private static Player Player;
 	@SuppressWarnings("unused")
 	private static Map Map;
+
 	
 	public Moon()
 	{
@@ -18,6 +19,8 @@ public class Moon
 	public static void main(String[] args)
 	{
 		Moon = new Moon();
+		
+		Player.setNation("America");
 	}
 
 }
